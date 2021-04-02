@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SuperApp</string>
+    <string name="type_your_name">Type your name here</string>
+    <string name="hello_button">Say hello</string>
 </resources>
