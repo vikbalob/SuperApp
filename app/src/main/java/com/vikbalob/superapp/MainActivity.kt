@@ -10,13 +10,14 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onCreate(savedInstanceState)
         if (supportFragmentManager.backStackEntryCount == 0) {
             openGeneralFragment()
-            }
         }
+    }
 
     private fun openGeneralFragment() {
         supportFragmentManager.commit {
             setReorderingAllowed(true)
             add<GeneralFragment>(R.id.fragment_container_view)
+            addToBackStack(GeneralFragment.TAG)
         }
     }
 }
