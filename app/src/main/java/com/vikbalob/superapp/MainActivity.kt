@@ -8,13 +8,15 @@ import androidx.fragment.app.commit
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        if (savedInstanceState == null) {
-            supportFragmentManager.commit {
-                setReorderingAllowed(true)
-                add<ExampleFragment>(R.id.fragment_container_view)
+        if (supportFragmentManager.backStackEntryCount == 0) {
+            openGeneralFragment()
             }
         }
 
+    private fun openGeneralFragment() {
+        supportFragmentManager.commit {
+            setReorderingAllowed(true)
+            add<GeneralFragment>(R.id.fragment_container_view)
+        }
     }
-
 }
