@@ -13,116 +13,127 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/black"
-                android:text="TextView"
-                android:textColor="#FFFFFF" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/purple_200"
-                android:text="EditText"
-                android:textColor="#FFFFFF" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                style="@style/Theme.SuperApp"
+                android:id="@+id/button"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/teal_200"
-                android:text="Button"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/TextView"
+                />
 
-            <androidx.appcompat.widget.AppCompatButton
+
+            <Button
+                android:id="@+id/button2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/purple_500"
-                android:text="App-bar"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/EditText"
+                android:textSize="25sp" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/holo_red_dark"
-                android:text="Toolbar"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/Button" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/holo_orange_dark"
-                android:text="ImageView"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/AppBar" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button5"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/holo_red_light"
-                android:text="Spinner"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/ToolBar" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button6"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/holo_orange_light"
-                android:text="AdapterView"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/ImageView" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button7"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/darker_gray"
-                android:text="RecyclerView"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/Spinner" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button8"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/holo_green_dark"
-                android:text="Service"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/AdapterView" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button9"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/teal_200"
-                android:text="Content Provider"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/RecyclerView" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button10"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/holo_red_dark"
-                android:text="SomeButton1"
-                android:textColor="#FFFFFF" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/Service" />
 
-            <androidx.appcompat.widget.AppCompatButton
+            <Button
+                android:id="@+id/button11"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/holo_orange_dark"
-                android:text="SomeButton2"
-                android:textColor="#FFFFFF" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/black"
-                android:text="SomeButton3"
-                android:textColor="#FFFFFF" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/white"
-                android:text="SomeButton4"
-                android:textColor="#000000" />
-
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="25sp"
+                android:text="@string/ContentProvider" />
 
         </LinearLayout>
     </ScrollView>
