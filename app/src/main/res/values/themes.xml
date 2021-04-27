@@ -16,7 +16,6 @@
 
 
     <style name="Buttons" parent="android:Widget.Button">
-        <item name="android:textColor">@drawable/selector_button_background</item>
         <item name="android:background">@drawable/selector_button_background</item>
     </style>
 </resources>
