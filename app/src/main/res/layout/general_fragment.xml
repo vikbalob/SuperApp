@@ -31,7 +31,6 @@
                 android:text="@string/TextView"
                 />
 
-
             <Button
                 style="@style/Buttons"
                 android:id="@+id/edit_text_button"
