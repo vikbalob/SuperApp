@@ -9,8 +9,10 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,81 +20,81 @@
             android:orientation="vertical">
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/text_view_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/TextView" />
+                android:text="@string/text_view" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/edit_text_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/EditText" />
+                android:text="@string/edit_text" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Button" />
+                android:text="@string/button" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/app_bar_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/AppBar" />
+                android:text="@string/app_bar" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/tool_bar_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ToolBar" />
+                android:text="@string/toolbar" />
 
             <Button
                 android:id="@+id/image_view_button"
-                style="@style/Buttons"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ImageView" />
+                android:text="@string/image_view" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/spinner_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Spinner" />
+                android:text="@string/spinner" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/adapter_view_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/AdapterView" />
+                android:text="@string/adapter_view" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/recycler_view_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/RecyclerView" />
+                android:text="@string/recycler_view" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/service_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Service" />
+                android:text="@string/service" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/content_provider_button"
+                style="@style/SuperAppButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ContentProvider" />
+                android:text="@string/content_provider" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

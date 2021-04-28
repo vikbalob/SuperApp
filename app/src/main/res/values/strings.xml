@@ -2,15 +2,15 @@
     <string name="app_name">SuperApp</string>
     <string name="type_your_name">Type your name here</string>
     <string name="hello_button">Say hello</string>
-    <string name="TextView">TEXTVIEW</string>
-    <string name="EditText">EDITTEXT</string>
-    <string name="Button">BUTTON</string>
-    <string name="AppBar">APP-BAR</string>
-    <string name="ToolBar">TOOLBAR</string>
-    <string name="ImageView">IMAGEVIEW</string>
-    <string name="Spinner">SPINNER</string>
-    <string name="AdapterView">ADAPTERVIEW</string>
-    <string name="RecyclerView">RECYCLERVIEW</string>
-    <string name="Service">SERVICE</string>
-    <string name="ContentProvider">CONTENTPROVIDER</string>
+    <string name="text_view">TEXTVIEW</string>
+    <string name="edit_text">EDITTEXT</string>
+    <string name="button">BUTTON</string>
+    <string name="app_bar">APP-BAR</string>
+    <string name="toolbar">TOOLBAR</string>
+    <string name="image_view">IMAGEVIEW</string>
+    <string name="spinner">SPINNER</string>
+    <string name="adapter_view">ADAPTERVIEW</string>
+    <string name="recycler_view">RECYCLERVIEW</string>
+    <string name="service">SERVICE</string>
+    <string name="content_provider">CONTENTPROVIDER</string>
 </resources>
