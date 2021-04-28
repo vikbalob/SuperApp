@@ -17,5 +17,11 @@
 
     <style name="Buttons" parent="android:Widget.Button">
         <item name="android:background">@drawable/selector_button_background</item>
+        <item name="android:textColor">@drawable/selector_button_text</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
     </style>
 </resources>

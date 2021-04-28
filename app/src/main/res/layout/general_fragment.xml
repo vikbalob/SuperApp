@@ -22,37 +22,20 @@
                 android:id="@+id/text_view_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
-                android:text="@string/TextView"
-                />
+                android:text="@string/TextView" />
 
             <Button
                 style="@style/Buttons"
                 android:id="@+id/edit_text_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="16dp"
-                android:textColor="@drawable/button_text"
-                android:text="@string/EditText"
-                android:textSize="25sp" />
+                android:text="@string/EditText" />
 
             <Button
                 style="@style/Buttons"
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/Button" />
 
             <Button
@@ -60,11 +43,6 @@
                 android:id="@+id/app_bar_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/AppBar" />
 
             <Button
@@ -72,23 +50,13 @@
                 android:id="@+id/tool_bar_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/ToolBar" />
 
             <Button
-                style="@style/Buttons"
                 android:id="@+id/image_view_button"
+                style="@style/Buttons"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/ImageView" />
 
             <Button
@@ -96,11 +64,6 @@
                 android:id="@+id/spinner_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/Spinner" />
 
             <Button
@@ -108,11 +71,6 @@
                 android:id="@+id/adapter_view_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/AdapterView" />
 
             <Button
@@ -120,11 +78,6 @@
                 android:id="@+id/recycler_view_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/RecyclerView" />
 
             <Button
@@ -132,11 +85,6 @@
                 android:id="@+id/service_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/Service" />
 
             <Button
@@ -144,11 +92,6 @@
                 android:id="@+id/content_provider_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="25sp"
-                android:textColor="@drawable/button_text"
                 android:text="@string/ContentProvider" />
         </LinearLayout>
     </ScrollView>
