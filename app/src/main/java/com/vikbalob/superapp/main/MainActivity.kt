@@ -1,9 +1,11 @@
-package com.vikbalob.superapp
+package com.vikbalob.superapp.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.add
 import androidx.fragment.app.commit
+import com.vikbalob.superapp.main.screens.general.GeneralFragment
+import com.vikbalob.superapp.R
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
     override fun onCreate(savedInstanceState: Bundle?) {
