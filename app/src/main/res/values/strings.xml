@@ -13,4 +13,7 @@
     <string name="recycler_view">RECYCLERVIEW</string>
     <string name="service">SERVICE</string>
     <string name="content_provider">CONTENTPROVIDER</string>
+    <string name="about_toolbar">A Toolbar is a generalization of action bars for use within application layouts.While an action bar is traditionally part of an Activity
+        is opaque window decor controlled by the framework, a Toolbar may be placed at any arbitrary level of nesting within a view hierarchy. An application may choose to
+        designate a Toolbar as the action bar for an Activity using the setActionBar() method.</string>
 </resources>
