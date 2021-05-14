@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
-        android:id="@+id/aboutToolBar"
-        android:layout_width="361dp"
-        android:layout_height="150dp"
-        android:maxLines="5"
-        android:text="@string/about_toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="1dp"
+            app:navigationIcon="@drawable/ic_back">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/HeaderOfToolbar"
+                tools:text="@string/text_view" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextViewOnTxtViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2"
+            android:text="@string/about_toolbar" />
+
+        <TextView
+            android:id="@+id/TextViewReadAll"
+            style="@style/TextViewReadAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:text="@string/read_all" />
+
+        <TextView
+            android:id="@+id/text_view_monospace"
+            style="@style/TextViewOnTxtViewFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="@string/text_view_monospace" />
+
+        <TextView
+            android:id="@+id/text_view_casual"
+            style="@style/TextViewOnTxtViewFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:text="@string/text_view_casual" />
+
+        <TextView
+            android:id="@+id/medium_black"
+            style="@style/TextMediumBlackStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/text_view_medium_black" />
+
+        <TextView
+            android:id="@+id/big_black"
+            style="@style/TextBigBlackStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:text="@string/text_view_big_black" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

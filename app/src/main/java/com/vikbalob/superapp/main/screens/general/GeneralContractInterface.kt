@@ -10,6 +10,6 @@ interface GeneralContractInterface {
     }
 
     interface Presenter : BasePresenterInterface<View> {
-        fun onButtonClick()
+        fun onTextViewButtonClick()
     }
 }

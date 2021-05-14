@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">SuperApp</string>
+    <string name="home">HOME</string>
     <string name="type_your_name">Type your name here</string>
     <string name="hello_button">Say hello</string>
     <string name="text_view">TEXTVIEW</string>
@@ -12,6 +13,11 @@
     <string name="adapter_view">ADAPTERVIEW</string>
     <string name="recycler_view">RECYCLERVIEW</string>
     <string name="service">SERVICE</string>
+    <string name="read_all">Read All</string>
+    <string name="text_view_monospace">text view monospace font</string>
+    <string name="text_view_casual">text view casual font</string>
+    <string name="text_view_medium_black">TextMediumBlack Style</string>
+    <string name="text_view_big_black">TextBigBlack Style</string>
     <string name="content_provider">CONTENTPROVIDER</string>
     <string name="about_toolbar">A Toolbar is a generalization of action bars for use within application layouts.While an action bar is traditionally part of an Activity
         is opaque window decor controlled by the framework, a Toolbar may be placed at any arbitrary level of nesting within a view hierarchy. An application may choose to
