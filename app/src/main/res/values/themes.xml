@@ -19,9 +19,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="HeaderOfToolbar">
-        <item name="android:textColor">@color/color_white</item>
-        <item name="android:textSize">22sp</item>
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">6dp</item>
     </style>
 
 

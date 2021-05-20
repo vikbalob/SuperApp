@@ -3,8 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,20 +11,11 @@
         android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            android:elevation="1dp"
-            app:navigationIcon="@drawable/ic_back">
-
-            <TextView
-                android:id="@+id/toolbar_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/HeaderOfToolbar"
-                tools:text="@string/text_view" />
-
+            android:id="@+id/txt_view_toolbar"
+            style="@style/Toolbar"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="@string/text_view"
+            app:titleTextColor="@color/white">
         </androidx.appcompat.widget.Toolbar>
 
         <TextView
@@ -37,7 +27,7 @@
             android:text="@string/about_toolbar" />
 
         <TextView
-            android:id="@+id/TextViewReadAll"
+            android:id="@+id/text_view_read_all"
             style="@style/TextViewReadAll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

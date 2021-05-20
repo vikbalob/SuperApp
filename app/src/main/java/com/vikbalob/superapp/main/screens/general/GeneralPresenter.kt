@@ -6,6 +6,6 @@ class GeneralPresenter : BasePresenter<GeneralContractInterface.View>(),
         GeneralContractInterface.Presenter {
 
     override fun onTextViewButtonClick() {
-
+        view?.openTextViewScreen()
     }
 }

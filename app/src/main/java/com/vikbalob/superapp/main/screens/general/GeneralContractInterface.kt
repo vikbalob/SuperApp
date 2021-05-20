@@ -6,7 +6,7 @@ import com.vikbalob.superapp.base.view.BaseViewInterface
 interface GeneralContractInterface {
 
     interface View : BaseViewInterface {
-
+        fun openTextViewScreen()
     }
 
     interface Presenter : BasePresenterInterface<View> {
