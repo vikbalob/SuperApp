@@ -7,7 +7,6 @@ import androidx.fragment.app.commit
 import androidx.fragment.app.replace
 import com.vikbalob.superapp.main.screens.general.GeneralFragment
 import com.vikbalob.superapp.R
-import com.vikbalob.superapp.databinding.ActivityMainBinding
 import com.vikbalob.superapp.main.screens.second.TextViewFragment
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
@@ -32,6 +31,14 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             setReorderingAllowed(true)
             replace<TextViewFragment>(R.id.fragment_container_view, TextViewFragment.TAG)
             addToBackStack(TextViewFragment.TAG)
+        }
+    }
+
+    override fun onBackPressed() {
+        if (supportFragmentManager.backStackEntryCount > 1) {
+            super.onBackPressed()
+        } else {
+            finish()
         }
     }
 }

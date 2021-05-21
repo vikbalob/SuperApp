@@ -6,7 +6,9 @@ import com.vikbalob.superapp.R
 import com.vikbalob.superapp.base.view.BaseFragment
 import com.vikbalob.superapp.databinding.TextViewFragmentBinding
 
-class TextViewFragment : BaseFragment(R.layout.text_view_fragment), TextViewContractInterface.View {
+
+class TextViewFragment : BaseFragment(R.layout.text_view_fragment),
+        TextViewContractInterface.View {
 
     companion object {
         const val TAG = "TextViewFragmentTag"
@@ -23,6 +25,9 @@ class TextViewFragment : BaseFragment(R.layout.text_view_fragment), TextViewCont
         textViewFragmentBinding?.textViewReadAll?.setOnClickListener {
             textViewPresenter.onReadAllButtonClick()
         }
+        textViewFragmentBinding?.txtViewToolbar?.setNavigationOnClickListener {
+            activity?.onBackPressed()
+        }
     }
 
     override fun hideReadAllView() {
@@ -30,6 +35,6 @@ class TextViewFragment : BaseFragment(R.layout.text_view_fragment), TextViewCont
     }
 
     override fun setMaxLines() {
-        textViewFragmentBinding?.textViewReadAll?.maxLines = Int.MAX_VALUE
+        textViewFragmentBinding?.textView?.maxLines = Int.MAX_VALUE
     }
 }
