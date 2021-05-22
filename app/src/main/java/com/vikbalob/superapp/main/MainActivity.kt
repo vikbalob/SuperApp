@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     override fun onBackPressed() {
         if (supportFragmentManager.backStackEntryCount > 1) {
-            super.onBackPressed()
+            supportFragmentManager.popBackStack()
         } else {
             finish()
         }

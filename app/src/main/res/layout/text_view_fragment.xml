@@ -13,7 +13,7 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/txt_view_toolbar"
-            style="@style/Toolbar"
+            style="@style/SuperAppToolbar"
             app:navigationIcon="@drawable/ic_back"
             app:title="@string/text_view"
             app:titleTextColor="@color/white"/>
@@ -78,9 +78,7 @@
                     android:text="@string/text_view_big_black" />
             </LinearLayout>
         </ScrollView>
-
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

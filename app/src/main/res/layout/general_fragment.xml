@@ -11,7 +11,7 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/home_toolbar"
-            style="@style/Toolbar"
+            style="@style/SuperAppToolbar"
             app:title="@string/home"
             app:titleTextColor="@color/white">
         </androidx.appcompat.widget.Toolbar>
