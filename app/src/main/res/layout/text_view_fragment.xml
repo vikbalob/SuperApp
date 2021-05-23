@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -29,7 +28,7 @@
 
                 <TextView
                     android:id="@+id/textView"
-                    style="@style/TextViewOnTxtViewFragment"
+                    style="@style/Body"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
@@ -37,7 +36,7 @@
 
                 <TextView
                     android:id="@+id/text_view_read_all"
-                    style="@style/TextViewReadAll"
+                    style="@style/BodyGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="32dp"
@@ -45,7 +44,7 @@
 
                 <TextView
                     android:id="@+id/text_view_monospace"
-                    style="@style/TextViewOnTxtViewFragment"
+                    style="@style/Body"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="monospace"
@@ -53,7 +52,7 @@
 
                 <TextView
                     android:id="@+id/text_view_casual"
-                    style="@style/TextViewOnTxtViewFragment"
+                    style="@style/Body"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
