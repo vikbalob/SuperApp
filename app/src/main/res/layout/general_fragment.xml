@@ -1,98 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:orientation="vertical">
 
-        <LinearLayout
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_toolbar"
+            style="@style/SuperAppToolbar"
+            app:title="@string/home"
+            app:titleTextColor="@color/white">
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <Button
-                android:id="@+id/text_view_button"
-                style="@style/SuperAppButton"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/text_view" />
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/edit_text_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/edit_text" />
+                <Button
+                    android:id="@+id/text_view_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_view" />
 
-            <Button
-                android:id="@+id/button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/button" />
+                <Button
+                    android:id="@+id/edit_text_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_text" />
 
-            <Button
-                android:id="@+id/app_bar_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/app_bar" />
+                <Button
+                    android:id="@+id/button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button" />
 
-            <Button
-                android:id="@+id/tool_bar_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/toolbar" />
+                <Button
+                    android:id="@+id/app_bar_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_bar" />
 
-            <Button
-                android:id="@+id/image_view_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/image_view" />
+                <Button
+                    android:id="@+id/tool_bar_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/toolbar" />
 
-            <Button
-                android:id="@+id/spinner_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/spinner" />
+                <Button
+                    android:id="@+id/image_view_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/image_view" />
 
-            <Button
-                android:id="@+id/adapter_view_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/adapter_view" />
+                <Button
+                    android:id="@+id/spinner_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spinner" />
 
-            <Button
-                android:id="@+id/recycler_view_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/recycler_view" />
+                <Button
+                    android:id="@+id/adapter_view_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/adapter_view" />
 
-            <Button
-                android:id="@+id/service_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/service" />
+                <Button
+                    android:id="@+id/recycler_view_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recycler_view" />
 
-            <Button
-                android:id="@+id/content_provider_button"
-                style="@style/SuperAppButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/content_provider" />
-        </LinearLayout>
-    </ScrollView>
+                <Button
+                    android:id="@+id/service_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service" />
+
+                <Button
+                    android:id="@+id/content_provider_button"
+                    style="@style/SuperAppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_provider" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
