@@ -8,6 +8,7 @@ import androidx.fragment.app.replace
 import com.vikbalob.superapp.main.screens.general.GeneralFragment
 import com.vikbalob.superapp.R
 import com.vikbalob.superapp.main.screens.second.TextViewFragment
+import com.vikbalob.superapp.main.screens.third.EditTextFragment
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
@@ -31,6 +32,14 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             setReorderingAllowed(true)
             replace<TextViewFragment>(R.id.fragment_container_view, TextViewFragment.TAG)
             addToBackStack(TextViewFragment.TAG)
+        }
+    }
+
+    fun openEditTextFragment() {
+        supportFragmentManager.commit {
+            setReorderingAllowed(true)
+            replace<EditTextFragment>(R.id.fragment_container_view, EditTextFragment.TAG)
+            addToBackStack(EditTextFragment.TAG)
         }
     }
 

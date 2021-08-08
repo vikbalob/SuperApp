@@ -28,7 +28,7 @@
     </style>
 
 
-    <style name="SuperAppButton" parent="android:Widget.Button">
+    <style name="GenFragButtons" parent="android:Widget.Button">
         <item name="android:background">@drawable/selector_button_background</item>
         <item name="android:textColor">@drawable/selector_button_text</item>
         <item name="android:textSize">15sp</item>
@@ -38,7 +38,7 @@
         <item name="android:layout_marginBottom">8dp</item>
     </style>
 
-    <style name="Body">
+    <style name="BodyTextView">
         <item name="android:textSize">25sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:layout_gravity">center_horizontal</item>
@@ -62,9 +62,60 @@
     </style>
 
 
-    <style name="BodyGreen">
+    <style name="BodyTxtViewGreen">
         <item name="android:textColor">@color/colorPrimary</item>
         <item name="android:textSize">20sp</item>
         <item name="android:layout_gravity">right</item>
+    </style>
+
+    <style name="BodyEditText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">-10dp</item>
+    </style>
+
+    <style name="BodyEditText2">
+        <item name="android:textColor">@color/color_gray</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="future_pass_log">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="DescriptionEditText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">14dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="BodyEditTextBlack">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="EditTextButton" parent="GenFragButtons">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="EditTextFrame">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@drawable/edit_text_style</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
     </style>
 </resources>

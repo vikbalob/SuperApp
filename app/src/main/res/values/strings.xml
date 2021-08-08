@@ -19,6 +19,14 @@
     <string name="text_view_medium_black">TextMediumBlack Style</string>
     <string name="text_view_big_black">TextBigBlack Style</string>
     <string name="content_provider">CONTENTPROVIDER</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="BtnLogin">LOGIN</string>
+    <string name="login_colon">login:</string>
+    <string name="password_colon">password:</string>
+    <string name="editText">EditText</string>
+    <string name="editTextFocused">EditText has focused</string>
+    <string name="editTextNonFocused">EditText has not focused</string>
     <string name="about_toolbar">A Toolbar is a generalization of action bars for use within application layouts.While an action bar is traditionally part of an Activity
         is opaque window decor controlled by the framework, a Toolbar may be placed at any arbitrary level of nesting within a view hierarchy. An application may choose to
         designate a Toolbar as the action bar for an Activity using the setActionBar() method.</string>

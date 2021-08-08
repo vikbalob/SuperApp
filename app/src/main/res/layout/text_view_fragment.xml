@@ -28,7 +28,7 @@
 
                 <TextView
                     android:id="@+id/textView"
-                    style="@style/Body"
+                    style="@style/BodyTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
@@ -36,7 +36,7 @@
 
                 <TextView
                     android:id="@+id/text_view_read_all"
-                    style="@style/BodyGreen"
+                    style="@style/BodyTxtViewGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="32dp"
@@ -44,7 +44,7 @@
 
                 <TextView
                     android:id="@+id/text_view_monospace"
-                    style="@style/Body"
+                    style="@style/BodyTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="monospace"
@@ -52,7 +52,7 @@
 
                 <TextView
                     android:id="@+id/text_view_casual"
-                    style="@style/Body"
+                    style="@style/BodyTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"

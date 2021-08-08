@@ -1,17 +1,15 @@
-package com.vikbalob.superapp.main.screens.general
+package com.vikbalob.superapp.main.screens.third
 
 import com.vikbalob.superapp.base.presenter.BasePresenterInterface
 import com.vikbalob.superapp.base.view.BaseViewInterface
 
-interface GeneralContractInterface {
+interface EditTextContractInterface {
 
     interface View : BaseViewInterface {
-        fun openTextViewScreen()
-        fun openEditTextScreen()
+
     }
 
     interface Presenter : BasePresenterInterface<View> {
-        fun onTextViewButtonClick()
-        fun onEditTextButtonClick()
+
     }
 }

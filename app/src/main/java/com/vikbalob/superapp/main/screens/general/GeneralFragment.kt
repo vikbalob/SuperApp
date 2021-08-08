@@ -24,9 +24,16 @@ class GeneralFragment : BaseFragment(R.layout.general_fragment), GeneralContract
         generalFragmentBinding?.textViewButton?.setOnClickListener {
             generalPresenter.onTextViewButtonClick()
         }
+        generalFragmentBinding?.editTextButton?.setOnClickListener {
+            generalPresenter.onEditTextButtonClick()
+        }
     }
 
     override fun openTextViewScreen() {
         (activity as? MainActivity)?.openTextViewScreen()
+    }
+
+    override fun openEditTextScreen() {
+        (activity as? MainActivity)?.openEditTextFragment()
     }
 }
